@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fit5225-dev-223959-authRole",
+      "UnauthRoleArn": "arn:aws:iam::452373913596:role/amplify-fit5225-dev-223959-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::452373913596:role/amplify-fit5225-dev-223959-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fit5225-dev-223959-deployment",
+      "UnauthRoleName": "amplify-fit5225-dev-223959-unauthRole",
+      "StackName": "amplify-fit5225-dev-223959",
+      "StackId": "arn:aws:cloudformation:us-east-1:452373913596:stack/amplify-fit5225-dev-223959/d4127c70-bfb1-11eb-86c2-12f0216d258f",
+      "AmplifyAppId": "d2jg2kz4fp8dyg"
+    },
+    "categories": {
+      "auth": {
+        "fit5225adf0d469": {}
+      },
+      "function": {
+        "function": {
+          "deploymentBucketName": "amplify-fit5225-dev-223959-deployment",
+          "s3Key": "amplify-builds/function-66464a6f707548346956-build.zip"
+        }
+      }
+    }
+  }
+}

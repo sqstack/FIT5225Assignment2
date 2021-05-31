@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/images",
+      "lambdaFunction": "function",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/images"
+    }
+  ],
+  "resourceName": "fit5225",
+  "apiName": "fit5225",
+  "functionArns": [
+    {
+      "lambdaFunction": "function"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-fit5225-dev-223959-authRole",
+    "unAuthRoleName": "amplify-fit5225-dev-223959-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "function",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
