@@ -26,7 +26,7 @@ const ImageComponent = props => {
         const params = {'etag': image['eTag'],'tag': tag}
         API.put('fit5225', '/images', {queryStringParameters: params})
         .then(response => {
-            setShowAlert('Add tag' + tag + 'successfully!')
+            setShowAlert('Add tag ' +  tag + ' successfully!')
         })
         .catch(error => {
             console.log(error);
@@ -62,10 +62,10 @@ const ImageComponent = props => {
                 <th><input type="text" name="tag" value={tag} onChange={handleTagChange} /></th>
                 <th><button onClick={() => addTag()}>Add</button></th>
                 <th><button onClick={() => deleteImageFromDB()}>Delete</button></th>
+                </tr>
                 <div>{showAlert !== '' ? <Alert onClose={() => {
                     setShowAlert('')
                 }}>{showAlert}</Alert> : null }</div>
-                </tr>
             </div>
         </span>
     )
