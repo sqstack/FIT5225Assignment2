@@ -172,7 +172,7 @@ const AuthStateApp = () => {
                     )
                 })
             case 'noimage':
-                return <h2>No such image</h2>
+                return <h2>Image not found</h2>
             default:
                 break;
         }
