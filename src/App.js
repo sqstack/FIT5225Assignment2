@@ -188,7 +188,7 @@ const AuthStateApp = () => {
                     <input type = "text" value = {tagStr} onChange = {e => setTagStr(e.target.value)} />
                     <button onClick={loadImageETag}>Search</button>
                 </div>
-                <div id='notice'>Split tags by ","</div>
+                <div id='notice'>Please split tags by ","</div>
             </>
         )
     }
